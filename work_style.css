@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+}
+.setUP{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.TopNAVleft{
+    display: flex;
+}
+.TopNAVright{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+.setMargin{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+    
+
+nav{
+    display: flex;
+    gap:15px;
+}
+
+   
+.boxContent{
+    display: flex;
+   gap: 20px;
+}
+.img1
+{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.Words{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   font-size: 20px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+hr{
+    margin-block-start: 2em ;
+    margin-block-end: 2em ;
+ 
+}
+.SetLowBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    justify-content:center ;
+    gap:20px;
+
+}
+.fb , .insta , .Group , .Linkein {
+    display: flex;
+}
+.BoxOnTOP{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+}
+.Center{
+    display: flex;
+    gap: 20px;
+    border:50px;
+}

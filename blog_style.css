@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+main{
+    
+    margin-left:20%;
+    margin-right:20%;
+    border: 1px solid black;
+    max-width: 1280px;
+    
+}
+.leftTopnav{
+    text-align: left;
+}
+.setrightTopNav{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    gap:20px
+}
+a{
+    display: flex;
+}
+.boxSet
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+
+
+.contentBOX{
+   
+    flex-direction: column;
+}
+.setIncontentBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+hr{
+    display:block;
+}
+.SetLowBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    justify-content:center ;
+    gap:20px;
+
+}
+.fb , .insta , .Group , .Linkein {
+    display: flex;
+}
+.BoxOnTOP{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+}
+.Center{
+    display: flex;
+    gap: 20px;
+    border:50px;
+}

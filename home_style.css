@@ -1,0 +1,298 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: pink;
+    position: relative;
+}
+
+
+.main1 {
+    display: flex;
+    margin:10%;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+    
+
+
+.Boxshard2{
+   
+    background-color:lightblue;
+   
+     
+   
+    
+}
+.Boxshard3{
+    background-color: white;
+   
+
+}
+.Boxshard4{
+    background-color: white;
+  
+    
+}
+
+.main2 {
+    display: flex;
+    background-color: rgb(246, 248, 248);
+    flex-direction: column;
+
+
+
+}
+
+header {
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftTOP {
+    height: 50px;
+    display: flex;
+    align-items: end;
+    background-color: gray;
+
+}
+
+.rightTOP {
+    display: inline;
+    gap: 10px;
+    font-size: 30px;
+
+    justify-content: end;
+
+}
+
+.rightTOP {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+a{
+    color: black;
+}
+.LineFlex{
+    display: flex;
+    flex-direction: column;
+    margin:10%;
+    
+}
+
+   
+   
+     
+   
+
+
+
+    
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   width:fit-content
+   
+   
+    
+   
+}
+
+.profile1 {
+    display: flex;
+    font-size: 30px;
+    /* width:300px; */
+   
+    
+
+}
+
+.profile2, .img1 {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.Button1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    padding:10px
+   
+}
+.BlockforColor{
+    background-color: aquamarine;
+}
+
+.BlockforMargin{   
+    margin:10%;
+   
+   
+}
+.halfColor {
+    background-color:lightblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.halfbox {
+    display: flex;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 2%;
+   height: fit-content;
+   
+   
+   
+
+
+}
+
+.half {
+    /* font-size: 80px; */
+    background-color: lightblue;
+
+}
+
+.halfhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.halfwords {
+    display: flex;
+   
+   gap: 20px;
+  
+}
+.boxforhalfwords{
+    display: flex;
+  
+    
+}
+.haftwordsleft {
+    display:inline;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding:10px;
+    
+}
+
+.haftwordsright {
+    display:inline;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding:10px;
+
+}
+.spread,.spread1,.spread2{
+    display: flex;
+}
+
+.setLowContent {
+    margin-left: 10%;
+    margin-right:10%;
+    
+}
+
+.LowContent {
+    
+    flex-direction: column;
+}
+.LowContent1{
+    display: flex;
+    gap: 10px;
+}
+hr{
+    
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+}
+
+.numberC{
+    display: flex;
+    background-color:#142850;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:2px 7px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Dashboard{
+    /* Illustration */
+display: inline;
+
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+/* Light */
+color: #8695A4;
+
+
+}
+.headOnLow{
+    display: flex;
+    margin-top:-7px;
+}
+.LowContent1Box1Pic {
+    display: flex;
+    
+}
+
+.LowContent1Box2 {
+    display: flex;
+}
+hr{
+    color: black;
+    font-size: 10px;
+}
+.SetLowBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    justify-content:center ;
+    gap:20px;
+
+}
+.fb , .insta , .Group , .Linkein {
+    display: flex;
+}
+.BoxOnTOP{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+}
